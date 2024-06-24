@@ -1,0 +1,355 @@
+nav {
+    z-index: 1000;
+}
+
+.nav-link {
+    color: #333;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: color 0.3s ease;
+}
+
+.nav-link.active {
+    color: #007bff !important;
+}
+
+.nav-link:hover {
+    color: #007bff; /* Warna biru saat dihover */
+}
+
+#get-started-btn {
+    background-image: linear-gradient(to right, #0098FF, #05C170);
+    color: #ffffff;
+    padding: 10px 40px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+#get-started-btn:hover {
+    background-image: linear-gradient(to right, #05C170, #0098FF);
+}
+
+/* CSS khusus untuk new-hero-section */
+.new-hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    background-color: #fff;
+    margin-top: 50px;
+}
+
+.new-hero-content {
+    max-width: 50%;
+}
+
+.new-hero-content h2 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #0098FF; /* Warna primer */
+    margin: 0;
+    line-height: 1.2;
+}
+
+.new-hero-content p {
+    font-size: 18px;
+    color: #333;
+    margin: 20px 0;
+}
+
+.new-cta-button {
+    background: linear-gradient(to right, #0098FF, #05C170);
+    color: #fff;
+    border: none;
+    padding: 10px 40px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.new-cta-button:hover {
+    background: linear-gradient(to right, #05C170, #0098FF);
+}
+
+.new-hero-image {
+    max-width: 50%;
+}
+
+.new-hero-image img {
+    width: 100%;
+    height: auto;
+}
+
+.subjudul {
+    font-size: 30px;
+    font-weight: bold;
+    color: #0098FF; /* Warna primer */
+    margin: 0;
+    line-height: 1.2;
+}
+
+.cta-button {
+    background: linear-gradient(to right, #0098FF, #05C170);
+    color: #fff;
+    border: none;
+    padding: 10px 40px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.cta-button:hover {
+    background: linear-gradient(to right, #05C170, #0098FF);
+}
+
+/* CSS khusus untuk new-hero-section */
+.new-hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+    background-color: #fff;
+    margin-top: 50px;
+}
+
+.new-hero-content {
+    max-width: 50%;
+    text-align: left;
+}
+
+.new-hero-content p {
+    font-size: 18px;
+    color: #333;
+    margin: 20px 0;
+}
+
+.new-hero-content h2 {
+    font-size: 30px;
+    font-weight: bold;
+    color: #0098FF; /* Warna primer */
+    margin: 0;
+    line-height: 1.2;
+}
+
+.new-cta-button {
+    background: linear-gradient(to right, #0098FF, #05C170);
+    color: #fff;
+    border: none;
+    padding: 10px 40px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.new-cta-button:hover {
+    background: linear-gradient(to right, #05C170, #0098FF);
+}
+
+.new-hero-image {
+    max-width: 50%;
+    text-align: right;
+}
+
+.new-hero-image img {
+    width: 100%;
+    height: auto;
+}
+
+.container-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.card-informasi {
+    flex: 1;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 300px; /* Set max-width to ensure cards don't stretch too wide */
+}
+
+.icon-info {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 10px;
+    margin: auto;
+}
+
+/* Footer Styles */
+.footer {
+    background: linear-gradient(to right, #0098FF, #05C170);
+    color: #fff;
+    padding: 20px 0;
+    margin-top: 100px;
+    border-top-left-radius: 20px; /* Tambahkan sudut terbulat di sudut kiri atas */
+    border-top-right-radius: 20px; /* Tambahkan sudut terbulat di sudut kanan atas */
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    margin-top: 30px;
+}
+
+.footer-left {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-logo img {
+    height: 50px;
+}
+
+.footer-icons {
+    display: flex;
+    margin-top: 10px;
+}
+
+.footer-icons a {
+    color: #fff;
+    margin: 0 10px;
+    font-size: 24px;
+    transition: color 0.3s ease;
+}
+
+.footer-icons a:hover {
+    color: #000;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+.footer-links a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: #000;
+}
+
+.footer-contact button {
+    background-color: #fff;
+    color: #0098FF;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.footer-contact button:hover {
+    background-color: #0098FF;
+    color: #fff;
+}
+
+.footer-divider {
+    width: 90%;
+    height: 1px;
+    background-color: #fff;
+    margin: 20px auto;
+}
+
+.footer-bottom {
+    text-align: center;
+}
+
+.footer-bottom p {
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    .new-hero-section {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .new-hero-content, .new-hero-image {
+        max-width: 100%;
+    }
+
+    .new-hero-content h1 {
+        font-size: 36px;
+    }
+
+    .new-hero-content p {
+        font-size: 16px;
+    }
+
+    .new-cta-button {
+        padding: 10px 20px;
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 768px) {
+    .new-hero-section {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .new-hero-content, .new-hero-image {
+        max-width: 100%;
+        margin-top: 50px;
+    }
+
+    .new-hero-content h2 {
+        font-size: 24px;
+    }
+
+    .new-hero-content p {
+        font-size: 16px;
+    }
+
+    .new-cta-button {
+        padding: 10px 20px;
+        font-size: 16px;
+    }
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .container-info {
+        flex-direction: column;
+    }
+
+    .card-informasi {
+        max-width: 90%;
+        margin: 10px auto;
+    }
+}
+
+/* Menambahkan aturan media query untuk responsif */
+@media (max-width: 768px) {
+    .footer-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-links {
+        margin-top: 20px;
+    }
+
+    .footer-contact button {
+        margin-top: 20px;
+    }
+}

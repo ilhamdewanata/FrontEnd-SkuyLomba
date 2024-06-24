@@ -1,0 +1,205 @@
+.co-logo {
+    height: 45px;
+}
+
+input, textarea {
+    background-color: #F3E5F5;
+    border-radius: 50px !important;
+    padding: 12px 15px 12px 15px !important;
+    width: 100%;
+    box-sizing: border-box;
+    border: none !important;
+    border: 1px solid #F3E5F5 !important;
+    font-size: 16px !important;
+    color: #000 !important;
+    font-weight: 400;
+}
+
+input:focus, textarea:focus {
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    border: 1px solid #0098FF !important;
+    outline-width: 0;
+    font-weight: 400;
+}
+
+button:focus {
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    outline-width: 0;
+}
+
+#allcards {
+    margin-top: -27px;
+}
+
+.card {
+    border-radius: 0;
+    border: none;
+    width: 100%;
+    margin-top: 70px;
+}
+
+.card1 {
+    width: 50%;
+    padding: 30px 30px 10px 30px;
+}
+
+.register-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+    padding: 10px; /* Memberikan ruang antara gambar dan tepi */
+  }
+  
+  .register-image {
+    max-width: 100%;
+    height: auto;
+    max-height: 100%;
+    object-fit: cover; /* Mengisi kontainer tanpa distorsi */
+  }
+
+.card2 {
+    width: 50%;
+    /* background-image: url('https://img.freepik.com/free-vector/winner-trophy-podium-colorful-poster_1284-16569.jpg?t=st=1715103305~exp=1715106905~hmac=b4a16106c8c2f4c82d2eb270a085d6b18b7c4cbbbe742aa1130a67aee7b35502&w=360'); */
+    background-size: cover; /* Menyesuaikan ukuran gambar dengan ukuran elemen */
+    background-repeat: no-repeat; /* Menghindari pengulangan gambar */
+    background-position: center; /* Posisi gambar di tengah elemen */
+    border: none;
+    border-radius: 1.5%;
+}
+
+#hai {
+    width: 60%;
+}
+
+.heading {
+    margin-bottom: 60px !important;
+}
+
+::placeholder {
+    color: #000 !important;
+    opacity: 1;
+}
+
+:-ms-input-placeholder {
+    color: #000 !important;
+}
+
+::-ms-input-placeholder {
+    color: #000 !important;
+}
+
+.form-control-label {
+    font-size: 12px;
+    margin-left: 15px;
+}
+
+.msg-info {
+    padding-left: 15px;
+    margin-bottom: 30px;
+}
+
+.btn-color {
+    border-radius: 50px;
+    color: #fff;
+    background-image: linear-gradient(to right, #0098FF, #05C170);
+    padding: 15px;
+    cursor: pointer;
+    border: none !important;
+    margin-top: 40px;
+}
+
+.btn-color:hover {
+    color: #fff;
+    background-image: linear-gradient(to right, #05C170, #0098FF);
+}
+
+.btn-white {
+    border-radius: 50px;
+    color: #0098FF;
+    background-color: #fff;
+    padding: 8px 40px;
+    cursor: pointer;
+    border: 2px solid #0098FF !important;
+}
+
+.btn-white:hover {
+    color: #fff;
+    background-image: linear-gradient(to right, #05C170, #0098FF);
+}
+
+a {
+    color: #000;
+}
+
+a:hover {
+    color: #000;
+}
+
+.bottom {
+    width: 100%;
+    margin-top: 50px !important;
+}
+
+.sm-text {
+    font-size: 15px;
+}
+
+.user-icon::placeholder {
+    padding-left: 25px; /* Jarak dari kiri untuk ikon */
+    background-image: url('https://th.bing.com/th/id/R.21c3f34e20099961540c5514e538c840?rik=zd0STB8yBlSBGw&riu=http%3a%2f%2fmboldservices.com%2fwp-content%2fuploads%2f2017%2f11%2fhuman_icon_1197354.png&ehk=%2bocBGakzX0FpiwpIusdIH3Xu1fYtBWTrqzXZO%2bxVgs4%3d&risl=&pid=ImgRaw&r=0');
+    background-size: 18px; /* Ukuran ikon */
+    background-repeat: no-repeat;
+    background-position: left center; /* Posisi ikon di dalam placeholder */
+  }
+  .user-icon {
+    padding: 10px;
+    font-size: 16px;
+  }
+
+  .psw-icon::placeholder {
+    padding-left: 25px; /* Jarak dari kiri untuk ikon */
+    background-image: url('https://icon-library.com/images/password-icon-png/password-icon-png-4.jpg');
+    background-size: 15px; /* Ukuran ikon */
+    background-repeat: no-repeat;
+    background-position: left center; /* Posisi ikon di dalam placeholder */
+  }
+  .psw-icon {
+    padding: 10px;
+    font-size: 16px;
+  }  
+
+@media screen and (max-width: 992px) {
+    .card1 {
+        width: 100%;
+        padding: 40px 30px 10px 30px;
+    }
+
+    .card2 {
+        width: 100%;
+    }
+
+    .right {
+        margin-top: 100px !important;
+        margin-bottom: 100px !important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 5px !important;
+    }
+
+    .card2 {
+        padding: 50px;
+    }
+
+    .right {
+        margin-top: 50px !important;
+        margin-bottom: 50px !important;
+    }
+}

@@ -1,0 +1,364 @@
+nav {
+  z-index: 1000;
+}
+
+.nav-link {
+  color: #333;
+  padding: 10px 15px;
+  border-radius: 5px;
+  transition: color 0.3s ease;
+}
+
+.nav-link.active {
+  color: #007bff !important;
+}
+
+.nav-link:hover {
+  color: #007bff; /* Warna biru saat dihover */
+}
+
+#get-started-btn {
+  background-image: linear-gradient(to right, #0098ff, #05c170);
+  color: #ffffff;
+  padding: 10px 40px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+#get-started-btn:hover {
+  background-image: linear-gradient(to right, #05c170, #0098ff);
+}
+
+#search-icon::placeholder {
+  padding-left: 25px; /* Jarak dari kiri untuk ikon */
+  background-image: url("https://atdsolution.com/wp-content/themes/ATD/img/training/search.png");
+  background-size: 18px; /* Ukuran ikon */
+  background-repeat: no-repeat;
+  background-position: left center; /* Posisi ikon di dalam placeholder */
+}
+
+#search-icon {
+  padding: 10px;
+  font-size: 16px;
+}
+
+.form {
+  position: relative;
+  margin-top: 100px; /* Adjust the top margin to create space below the navbar */
+}
+
+.form .fa-search {
+  position: absolute;
+  top: 50%;
+  left: 20px;
+  transform: translateY(-50%);
+  color: #9ca3af;
+}
+
+.form-input {
+  height: 45px;
+  flex: 1; /* Menggunakan flex untuk mengisi ruang yang tersedia */ /* Increased left padding to adjust for icon */
+  border-radius: 5px;
+  border: 1px solid #d1d5db; /* Added border to improve visibility */
+  /* Margin kanan untuk memberi ruang di sebelah kanan */
+  width: calc(
+    100% - 220px
+  ); /* Adjusted width to accommodate icon and spacing */
+}
+
+.form-input:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.5); /* Blue outline when focused */
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  margin-left: 10px; /* Add some space between the search input and the dropdown */
+}
+
+.dropdown-toggle {
+  background-color: #ffffff;
+  border: 1px solid #d1d5db;
+  color: #333;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  min-width: 160px;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.dropdown-toggle:hover,
+.dropdown-toggle:focus {
+  background-color: #f1f1f1; /* Light gray background on hover or focus */
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.5); /* Blue outline when focused */
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  min-width: 160px;
+  z-index: 1;
+  border-radius: 5px;
+  overflow: hidden;
+  top: 100%;
+  left: 0;
+}
+
+.dropdown-menu a {
+  display: block;
+  padding: 10px 15px;
+  text-decoration: none;
+  color: #333;
+  transition: color 0.3s ease; /* Smooth transition for text color */
+}
+
+.dropdown-menu a:hover {
+  background-color: #f1f1f1; /* Light gray background on hover */
+  color: #007bff; /* Blue text color on hover */
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+/* CSS untuk tombol baru yang dinamis */
+.dynamic-button {
+  background-color: #007bff;
+  color: #ffffff;
+  height: 45px;
+  border: none;
+  border-radius: 25px;
+  padding: 0 20px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+  white-space: nowrap;
+  margin: 5px; /* Spacing between buttons */
+  transition: background-color 0.3s ease;
+}
+
+.dynamic-button:hover {
+  background-color: #0056b3;
+}
+
+/* upload button */
+.upload-button {
+  background-color: #007bff;
+  color: #ffffff;
+  height: 45px;
+  border: none;
+  border-radius: 5px;
+  padding: 0 20px;
+  font-size: 16px;
+  cursor: pointer;
+  display: inline-block;
+  white-space: nowrap;
+  margin: 5px; /* Spacing between buttons */
+  transition: background-color 0.3s ease;
+}
+
+.upload-button:hover {
+  background-color: #0056b3;
+}
+
+.upload-container {
+  text-align: right; /* Untuk membuat tombol berada di tengah */
+}
+
+.card-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.card {
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.card img {
+  width: auto;
+  height: auto;
+  
+}
+
+.card-content {
+  padding: 15px;
+}
+
+.category,
+.type {
+  display: inline-block;
+  font-size: 12px;
+  color: #fff;
+  background: #007bff;
+  padding: 2px 6px;
+  border-radius: 3px;
+  margin-right: 5px;
+}
+
+.category {
+  background: #ff5733;
+}
+
+h3 {
+  font-size: 18px;
+  margin: 10px 0;
+}
+
+.details {
+  font-size: 14px;
+  color: #777;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+/* Footer Styles */
+.footer {
+  background: linear-gradient(to right, #0098ff, #05c170);
+  color: #fff;
+  padding: 20px 0;
+  margin-top: 100px;
+  border-top-left-radius: 20px; /* Tambahkan sudut terbulat di sudut kiri atas */
+  border-top-right-radius: 20px; /* Tambahkan sudut terbulat di sudut kanan atas */
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  margin-top: 30px;
+}
+
+.footer-left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-logo img {
+  height: 50px;
+}
+
+.footer-icons {
+  display: flex;
+  margin-top: 10px;
+}
+
+.footer-icons a {
+  color: #fff;
+  margin: 0 10px;
+  font-size: 24px;
+  transition: color 0.3s ease;
+}
+
+.footer-icons a:hover {
+  color: #000;
+}
+
+.footer-links {
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
+}
+
+.footer-links a {
+  color: #fff;
+  margin: 0 15px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+  color: #000;
+}
+
+.footer-contact button {
+  background-color: #fff;
+  color: #0098ff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.footer-contact button:hover {
+  background-color: #0098ff;
+  color: #fff;
+}
+
+.footer-divider {
+  width: 90%;
+  height: 1px;
+  background-color: #fff;
+  margin: 20px auto;
+}
+
+.footer-bottom {
+  text-align: center;
+}
+
+.footer-bottom p {
+  margin: 0;
+}
+
+/* Mengatur margin kiri dan kanan pada form-input agar responsif */
+@media (max-width: 768px) {
+  .form-input {
+    margin-left: 15px; /* Hapus margin kiri */
+    margin-right: 0; /* Hapus margin kanan */
+    width: 100%; /* Gunakan lebar penuh */
+    width: 60%;
+  }
+
+  /* Sesuaikan padding pada form-input saat lebar layar lebih kecil */
+  .form-input {
+    padding-left: 15px; /* Padding kiri dikurangi */
+  }
+
+  /* Sesuaikan lebar tombol dropdown */
+  .dropdown-toggle {
+    min-width: 120px; /* Kurangi lebar minimum tombol dropdown */
+  }
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .card-container {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/* Menambahkan aturan media query untuk responsif */
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-links {
+    margin-top: 20px;
+  }
+
+  .footer-contact button {
+    margin-top: 20px;
+  }
+}
